@@ -197,8 +197,6 @@ IoT mini project/
 └── README.md
 ```
 
-*The folder names should be adjusted to match the actual repository layout.*
-
 ## 🚀 Getting Started
 
 ### Prerequisites
