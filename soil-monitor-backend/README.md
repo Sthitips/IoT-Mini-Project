@@ -1,222 +1,128 @@
-# Soil Monitor – Backend
+# Soil Monitor Backend
 
-## Overview
+This folder contains the Python API and MQTT logic for the soil monitoring system.
 
-This repository contains the backend for the Smart Soil Moisture Monitoring and Recommendation System.
+## What it does
 
-The backend is built using **FastAPI** and uses a local JSON file for storing sensor readings. It receives soil moisture data from an ESP32 through the Mosquitto MQTT broker, converts raw sensor readings into moisture percentages, stores the processed data and exposes REST APIs for the React frontend.
+- subscribes to MQTT readings from the ESP32
+- validates incoming JSON payloads
+- converts analog sensor values into moisture percentages
+- stores the data in `data/readings.json`
+- exposes REST endpoints to the frontend
+- provides recommendation logic for watering actions
 
-**No external database is required.**
-
-## Technology Stack
-
-- Python
-- FastAPI
-- Pydantic
-- Mosquitto MQTT
-- JSON file storage
-- Uvicorn
-
-## Project Structure
+## Project structure
 
 ```text
 soil-monitor-backend/
-│
-├── .venv/
-│
 ├── app/
 │   ├── mqtt/
-│   │   ├── __init__.py
 │   │   └── subscriber.py
-│   │
 │   ├── routes/
-│   │   ├── __init__.py
 │   │   └── sensor.py
-│   │
 │   ├── schemas/
-│   │   ├── __init__.py
 │   │   └── sensor.py
-│   │
 │   ├── services/
-│   │   ├── __init__.py
 │   │   ├── conversion.py
 │   │   └── storage.py
-│   │
 │   └── main.py
-│
 ├── data/
 │   └── readings.json
-│
+├── .env.example
 ├── .gitignore
 ├── requirements.txt
+├── test_backend.py
+├── test_routes.py
 └── README.md
 ```
 
-## 1. System Architecture
+## Requirements
 
-```text
-Soil Moisture Sensor
-        |
-        v
-      ESP32
-        |
-        | MQTT Publish
-        v
- Mosquitto MQTT Broker
-        |
-        | MQTT Subscribe
-        v
- FastAPI MQTT Subscriber
-        |
-        v
- Raw Data Validation
-        |
-        v
- Moisture Conversion
-        |
-        v
-   JSON Storage
-        |
-        v
-    REST APIs
-        |
-        v
- React Dashboard
+- Python 3.10+
+- pip
+- access to a running Mosquitto broker
+
+## Setup
+
+```bash
+cd soil-monitor-backend
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
 ```
 
-## 2. Incoming MQTT Data Format
+## Run the API
 
-The ESP32 must publish the following JSON payload to the MQTT broker.
+```bash
+cd soil-monitor-backend
+source .venv/bin/activate
+uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
+```
 
-**Topic:**
+The API will be available at:
+
+- http://localhost:8000
+- http://<your-lan-ip>:8000
+
+## API endpoints
+
+```text
+GET /                     -> API info and available routes
+GET /api/sensor/latest    -> latest reading for a device
+GET /api/sensor/history   -> historical readings for charting
+GET /api/sensor/status   -> device online/offline status
+POST /api/sensor/readings -> manually add a reading
+GET /api/recommendations -> watering recommendation
+```
+
+## MQTT message format
+
+Topic:
 
 ```text
 soil-monitor/esp32-001/readings
 ```
 
-**Payload:**
+Payload:
 
 ```json
 {
   "device_id": "esp32-001",
   "raw_value": 2100,
-  "timestamp": "2026-11-04T10:30:00Z"
+  "timestamp": "2026-11-07T10:00:00Z"
 }
 ```
 
-### Payload requirements
+The backend calculates the moisture percentage and stores the result in JSON.
 
-| Field | Data type | Description |
-|---|---|---|
-| device_id | String | Unique identifier of the ESP32 |
-| raw_value | Integer | Raw analog reading from the soil moisture sensor |
-| timestamp | ISO 8601 string | Time at which the reading was recorded |
+## Local data storage
 
-Important:
-- Do not send the converted moisture percentage from the ESP32.
-- The backend is responsible for converting raw readings.
-- Timestamps should use ISO 8601 format in UTC, preferably ending with `Z`.
-- The topic and payload structure must remain consistent.
+The data file is kept at:
 
-## 3. File-wise Implementation Guide
-
-### A. `app/mqtt/subscriber.py`
-
-**Responsibility: MQTT communication**
-
-This file handles communication between Mosquitto and FastAPI.
-
-The MQTT implementation should:
-
-1. Connect to the Mosquitto broker.
-2. Subscribe to `soil-monitor/esp32-001/readings`.
-3. Receive incoming MQTT messages.
-4. Decode the message payload from bytes into JSON.
-5. Pass the decoded payload to the backend ingestion function.
-6. Handle connection failures and reconnect when necessary.
-
-The subscriber should NOT implement its own storage or moisture conversion logic.
-
-It should reuse the existing services.
-
-Expected integration:
-
-```python
-def on_message(client, userdata, message):
-    payload = json.loads(message.payload.decode())
-
-    process_reading(payload)
+```text
+soil-monitor-backend/data/readings.json
 ```
 
-The `process_reading()` function should be imported from the appropriate backend service.
+This file is used as a simple local persistence layer. For production, you would normally replace it with a database.
 
-The MQTT connection should be started as part of the FastAPI application lifecycle without blocking the API server.
+## Testing
 
-### B. `app/schemas/sensor.py`
-
-**Responsibility: Data validation**
-
-This file defines the expected structure of incoming and processed sensor readings.
-
-Incoming data:
-
-```python
-class SensorReading(BaseModel):
-    device_id: str
-    raw_value: int
-    timestamp: datetime
+```bash
+cd soil-monitor-backend
+source .venv/bin/activate
+python test_backend.py
 ```
 
-Processed data:
+## GitHub push notes
 
-```python
-class StoredReading(BaseModel):
-    device_id: str
-    raw_value: int
-    moisture: int
-    timestamp: datetime
-```
+Keep this folder tracked, but exclude:
 
-Moisture must be constrained to the range 1–100.
+- `.venv/`
+- `__pycache__/`
+- local secret environment files
+- generated logs
 
-Pydantic validation should reject malformed payloads and invalid readings.
-
-### C. `app/services/conversion.py`
-
-**Responsibility: Raw sensor value conversion**
-
-The raw analog value must be converted into a moisture percentage between 1 and 100.
-
-Use the following calibration parameters:
-
-```python
-DRY_RAW = 3000
-WET_RAW = 1200
-```
-
-These are example values and MUST be replaced with actual readings obtained during sensor calibration.
-
-Conversion formula:
-
-```python
-moisture = 1 + (
-    (raw_value - DRY_RAW)
-    * 99
-    / (WET_RAW - DRY_RAW)
-)
-```
-
-Clamp the result between 1 and 100 and round it to an integer.
-
-The formula assumes that the raw sensor value decreases as moisture increases. Verify this using actual dry and wet soil measurements.
-
-**Important:** The conversion must happen in the backend, not in the ESP32 firmware or React frontend.
-
-### D. `app/services/storage.py`
-
-**Responsibility: JSON data storage**
-
-This file manages all reading-related storage operations.
+Use `.env.example` to document environment variables without exposing real secrets.
 
 It should provide reusable functions for:
 

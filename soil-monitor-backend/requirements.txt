@@ -2,3 +2,5 @@ fastapi
 uvicorn
 pydantic
 python-dotenv
+paho-mqtt>=1.6.1
+python-dateutil
