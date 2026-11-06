@@ -1,223 +1,130 @@
-# 🌱 Smart Soil Monitoring & Recommendation System
+# Smart Soil Monitoring System
 
-An IoT-based soil moisture monitoring system that collects real-time sensor readings, tracks soil conditions and provides intelligent watering recommendations through a web dashboard.
+A full-stack IoT project that monitors soil moisture with an ESP32, forwards readings through a Mosquitto MQTT broker, stores them in a FastAPI backend, and displays the live system status in a React dashboard.
 
-## 📌 Overview
+## Overview
 
-The Smart Soil Monitoring and Recommendation System aims to help users monitor soil moisture levels and make informed watering decisions.
+This project was designed to help you:
 
-The system uses an ESP32 connected to a soil moisture sensor to collect raw sensor readings. These readings are transmitted using MQTT through a Mosquitto broker to a FastAPI backend.
+- collect soil moisture readings from a physical sensor
+- send those readings wirelessly over MQTT
+- validate and convert the raw values in Python
+- store measurement history locally
+- show live moisture, health, and recommendations in a browser
 
-The backend processes the incoming readings, converts raw analog values into moisture percentages, stores historical data locally and generates watering recommendations.
-
-A React-based dashboard displays the latest moisture levels, historical trends, device connectivity and recommendations.
-
-## ✨ Key Features
-
-- **Real-Time Monitoring:** Continuously collects soil moisture readings through an ESP32.
-- **MQTT Communication:** Uses Mosquitto for lightweight communication between the IoT device and backend.
-- **Moisture Conversion:** Converts raw analog sensor readings into a percentage between 1 and 100.
-- **Historical Tracking:** Stores sensor readings with timestamps for daily moisture analysis.
-- **Interactive Dashboard:** Visualizes current moisture levels and historical trends.
-- **Smart Recommendations:** Provides watering suggestions based on soil moisture levels.
-- **Device Monitoring:** Tracks ESP32 connectivity and the last received sensor reading.
-- **Lightweight Storage:** Uses local JSON-based storage without requiring an external database.
-
-## 🛠️ Technology Stack
-
-| Component | Technology |
-|---|---|
-| Frontend | React.js, Vite |
-| Styling | Tailwind CSS |
-| Charts | Recharts |
-| HTTP Requests | Axios |
-| Backend | Python, FastAPI |
-| Data Validation | Pydantic |
-| Communication Protocol | MQTT |
-| MQTT Broker | Eclipse Mosquitto |
-| Microcontroller | ESP32 |
-| Sensor | Soil Moisture Sensor |
-| Data Storage | JSON |
-
-## 🏗️ System Architecture
+## Architecture
 
 ```text
-       SOIL MOISTURE SENSOR
-                |
-                v
-              ESP32
-                |
-          MQTT Publish
-                |
-                v
-        MOSQUITTO BROKER
-                |
-         MQTT Subscribe
-                |
-                v
-          FASTAPI BACKEND
-                |
-        Data Validation
-                |
-        Moisture Conversion
-                |
-        Recommendation Logic
-                |
-                v
-           JSON STORAGE
-                |
-             REST APIs
-                |
-                v
-          REACT DASHBOARD
-                |
-       +--------+---------+
-       |        |         |
-    Moisture  History  Recommendations
-     Level     Chart
+Soil sensor -> ESP32 -> MQTT broker -> FastAPI backend -> JSON storage + REST API -> React dashboard
 ```
 
-## 🔄 How It Works
+## Components
 
-### 1. Sensor Data Collection
+- `esp32/` — Arduino sketch and hardware setup for the ESP32 sensor node
+- `mosquitto/` — broker configuration and instructions
+- `soil-monitor-backend/` — Python FastAPI service and local data storage
+- `soil-monitor-frontend/` — React + Vite dashboard for the UI
+- `run_all.sh` — starts Mosquitto, backend, and frontend together
+- `stop_all.sh` — stops all services
 
-The soil moisture sensor measures the moisture content of the soil and provides an analog reading to the ESP32.
+## Features
 
-The ESP32 collects:
-- Device ID
-- Raw analog sensor value
-- Timestamp
+- real-time MQTT data ingestion
+- moisture conversion from raw analog values
+- device health and connectivity checks
+- historical moisture charting
+- watering recommendations based on moisture thresholds
+- mobile-friendly dashboard
+- local JSON-based persistence for simple deployment
 
-### 2. MQTT Communication
+## Tech stack
 
-The ESP32 publishes sensor readings to the Mosquitto MQTT broker at regular intervals.
-
-**MQTT Topic:**
-
-```text
-soil-monitor/esp32-001/readings
-```
-
-**Example payload:**
-
-```json
-{
-  "device_id": "esp32-001",
-  "raw_value": 2100,
-  "timestamp": "2026-11-04T10:30:00Z"
-}
-```
-
-### 3. Backend Processing
-
-The FastAPI backend subscribes to the MQTT topic and processes incoming messages.
-
-The backend:
-- Validates incoming sensor data.
-- Converts raw analog readings into a moisture percentage between 1 and 100.
-- Stores both raw and converted values with timestamps.
-- Generates watering recommendations based on the converted moisture percentage.
-
-### 4. Data Storage
-
-Processed readings are stored locally in a JSON file.
-
-```text
-backend/data/readings.json
-```
-
-Each stored record contains:
-
-```json
-{
-  "device_id": "esp32-001",
-  "raw_value": 2100,
-  "moisture": 65,
-  "timestamp": "2026-11-04T10:30:00Z"
-}
-```
-
-### 5. Dashboard Visualization
-
-The React frontend fetches processed data through FastAPI REST endpoints.
-
-The dashboard displays:
-- Current soil moisture percentage.
-- Plant moisture status.
-- Historical moisture chart.
-- Device connectivity status.
-- Watering recommendations.
-
-## 📊 Recommendation Logic
-
-The system initially uses threshold-based recommendations.
-
-| Moisture Level | Status | Recommendation |
-|---|---|---|
-| 1–29% | Dry | Water the plant |
-| 30–59% | Moderate | Monitor soil moisture |
-| 60–100% | Healthy | Avoid watering for now |
-
-These thresholds are initial demonstration values. They can be adjusted based on plant type, soil characteristics and sensor calibration.
-
-## 📁 Project Structure
-
-```text
-IoT mini project/
-│
-├── soil-monitor-frontend/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   ├── api/
-│   │   ├── hooks/
-│   │   └── data/
-│   ├── public/
-│   ├── package.json
-│   └── README.md
-│
-├── soil-monitor-backend/
-│   ├── app/
-│   │   ├── mqtt/
-│   │   │   └── subscriber.py
-│   │   ├── routes/
-│   │   │   └── sensor.py
-│   │   ├── schemas/
-│   │   │   └── sensor.py
-│   │   ├── services/
-│   │   │   ├── storage.py
-│   │   │   └── conversion.py
-│   │   └── main.py
-│   │
-│   ├── data/
-│   │   └── readings.json
-│   ├── requirements.txt
-│   └── README.md
-│
-└── README.md
-```
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-Make sure the following are installed:
-
-- Node.js and npm
-- Python 3.10 or later
+- ESP32 + Arduino
 - Mosquitto MQTT broker
-- Arduino IDE or PlatformIO for ESP32 development
+- Python 3
+- FastAPI
+- Pydantic
+- React
+- Vite
+- Recharts
+- Tailwind CSS
 
-### 1. Clone the Repository
+## Quick start
+
+1. Start the broker and backend/frontend stack:
 
 ```bash
-git clone <repository-url>
-cd soil-monitor
+cd /home/ansuman30/Music/IOT_SOIL
+./run_all.sh
 ```
 
-### 2. Run the Backend
+2. Open the frontend on your browser or phone using the displayed LAN URL.
 
-Navigate to the backend directory:
+3. If using actual hardware, flash the ESP32 sketch from `esp32/soil_monitor_esp32/soil_monitor_esp32.ino`.
+
+## Project structure
+
+```text
+IOT_SOIL/
+├── README.md
+├── run_all.sh
+├── stop_all.sh
+├── simulate_esp32.py
+├── esp32/
+│   ├── README.md
+│   └── soil_monitor_esp32/
+│       └── soil_monitor_esp32.ino
+├── mosquitto/
+│   ├── README.md
+│   └── mosquitto.conf
+├── soil-monitor-backend/
+│   ├── README.md
+│   ├── app/
+│   ├── data/
+│   ├── requirements.txt
+│   ├── .env.example
+│   ├── test_backend.py
+│   └── test_routes.py
+├── soil-monitor-frontend/
+│   ├── README.md
+│   ├── package.json
+│   ├── vite.config.js
+│   ├── src/
+│   └── public/
+└── .gitignore
+```
+
+## GitHub push guidance
+
+When pushing to GitHub, keep these in the repository:
+
+- source code
+- config files
+- README files
+- scripts such as `run_all.sh` and `stop_all.sh`
+- `.env.example` files
+- sample or seed data if you want a project demo
+
+Do not commit:
+
+- `.venv/`
+- `node_modules/`
+- `dist/`
+- local `.env` files
+- logs and temporary files
+- generated runtime artifacts
+
+## Documentation by folder
+
+- [esp32/README.md](esp32/README.md)
+- [mosquitto/README.md](mosquitto/README.md)
+- [soil-monitor-backend/README.md](soil-monitor-backend/README.md)
+- [soil-monitor-frontend/README.md](soil-monitor-frontend/README.md)
+
+## License
+
+This project is provided for learning and prototype deployment. Adjust licensing as needed before public release.
+
 
 ```bash
 cd backend
