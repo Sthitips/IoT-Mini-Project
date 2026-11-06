@@ -1,16 +1,77 @@
-# React + Vite
+# Soil Monitor Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This folder contains the React dashboard used to display live soil moisture data from the backend.
 
-Currently, two official plugins are available:
+## What it does
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- fetches the latest sensor reading from the FastAPI API
+- displays current moisture, health, and recommendations
+- charts historical readings over time
+- refreshes data automatically and on tab focus
+- works from desktop and mobile browsers
 
-## React Compiler
+## Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- Vite
+- Axios
+- Recharts
+- Tailwind CSS
+- Lucide icons
 
-## Expanding the ESLint configuration
+## Local setup
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+cd soil-monitor-frontend
+npm install
+npm run dev -- --host 0.0.0.0 --port 5173
+```
+
+Then open the app in the browser using:
+
+- http://localhost:5173
+- or the LAN IP from the same Wi-Fi network, such as http://192.168.0.103:5173
+
+## Production build
+
+```bash
+npm run build
+```
+
+## API configuration
+
+The frontend uses the backend URL from:
+
+```js
+src/api/axios.js
+```
+
+It defaults to the current browser host and port 8000 for the backend, so it works from a phone on the same Wi‑Fi network.
+
+## Environment variables
+
+You may optionally create a `.env` file like this:
+
+```bash
+VITE_API_URL=http://192.168.0.103:8000/api
+```
+
+This is useful when you want a fixed backend URL instead of using the browser host.
+
+## GitHub push notes
+
+Keep this folder in Git, but do not commit:
+
+- `node_modules/`
+- `dist/`
+- local `.env` files
+- generated preview or cache files
+
+## Useful scripts
+
+```bash
+npm run dev
+npm run build
+npm run lint
+```
+
