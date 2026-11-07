@@ -1,13 +1,13 @@
 # Smart Soil Monitoring System
 
-A full-stack IoT project that monitors soil moisture with an ESP32, forwards readings through a Mosquitto MQTT broker, stores them in a FastAPI backend, and displays the live system status in a React dashboard.
+A full-stack IoT project that monitors soil moisture with an ESP32, forwards readings through a HiveMQ Cloud MQTT broker, stores them in a FastAPI backend, and displays the live system status in a React dashboard.
 
 ## Overview
 
 This project was designed to help you:
 
 - collect soil moisture readings from a physical sensor
-- send those readings wirelessly over MQTT
+- send those readings wirelessly over MQTT using HiveMQ Cloud
 - validate and convert the raw values in Python
 - store measurement history locally
 - show live moisture, health, and recommendations in a browser
@@ -21,10 +21,10 @@ Soil sensor -> ESP32 -> MQTT broker -> FastAPI backend -> JSON storage + REST AP
 ## Components
 
 - `esp32/` — Arduino sketch and hardware setup for the ESP32 sensor node
-- `mosquitto/` — broker configuration and instructions
+- `mosquitto/` — legacy local broker files kept for reference, not required for cloud deployment
 - `soil-monitor-backend/` — Python FastAPI service and local data storage
 - `soil-monitor-frontend/` — React + Vite dashboard for the UI
-- `run_all.sh` — starts Mosquitto, backend, and frontend together
+- `run_all.sh` — starts the backend and frontend using the cloud broker settings
 - `stop_all.sh` — stops all services
 
 ## Features
@@ -40,7 +40,7 @@ Soil sensor -> ESP32 -> MQTT broker -> FastAPI backend -> JSON storage + REST AP
 ## Tech stack
 
 - ESP32 + Arduino
-- Mosquitto MQTT broker
+- HiveMQ Cloud MQTT broker
 - Python 3
 - FastAPI
 - Pydantic
@@ -51,16 +51,34 @@ Soil sensor -> ESP32 -> MQTT broker -> FastAPI backend -> JSON storage + REST AP
 
 ## Quick start
 
-1. Start the broker and backend/frontend stack:
+1. Copy the backend example file and set your HiveMQ Cloud credentials:
+
+```bash
+cd /home/ansuman30/Music/IOT_SOIL/soil-monitor-backend
+cp .env.example .env
+```
+
+Set these values in `.env`:
+
+```env
+MQTT_BROKER=broker.hivemq.cloud
+MQTT_PORT=8883
+MQTT_USE_TLS=true
+MQTT_USERNAME=your_hivemq_username
+MQTT_PASSWORD=your_hivemq_password
+MQTT_TOPIC=soil-monitor/+/readings
+```
+
+2. Start the backend and frontend stack:
 
 ```bash
 cd /home/ansuman30/Music/IOT_SOIL
 ./run_all.sh
 ```
 
-2. Open the frontend on your browser or phone using the displayed LAN URL.
+3. Open the frontend on your browser or phone using the displayed LAN URL.
 
-3. If using actual hardware, flash the ESP32 sketch from `esp32/soil_monitor_esp32/soil_monitor_esp32.ino`.
+4. If using actual hardware, flash the ESP32 sketch from `esp32/soil_monitor_esp32/soil_monitor_esp32.ino` and update the hostname, port, and credentials there as well.
 
 ## Project structure
 

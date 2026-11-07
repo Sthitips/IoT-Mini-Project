@@ -67,3 +67,9 @@ def home():
             "/api/recommendations"
         ]
     }
+
+
+@app.get("/health")
+def health():
+    """Health check endpoint for Render and UptimeRobot."""
+    return {"status": "ok", "service": "agropulse-backend"}

@@ -10,11 +10,12 @@ from app.services.storage import process_and_save_reading
 logger = logging.getLogger("mqtt_subscriber")
 logging.basicConfig(level=logging.INFO)
 
-MQTT_BROKER = os.getenv("MQTT_BROKER", "localhost")
+MQTT_BROKER = os.getenv("MQTT_BROKER", "broker.emqx.io")
 MQTT_PORT = int(os.getenv("MQTT_PORT", "1883"))
 MQTT_TOPIC = os.getenv("MQTT_TOPIC", "soil-monitor/+/readings")
 MQTT_USERNAME = os.getenv("MQTT_USERNAME", None)
 MQTT_PASSWORD = os.getenv("MQTT_PASSWORD", None)
+MQTT_USE_TLS = os.getenv("MQTT_USE_TLS", "false").strip().lower() in {"1", "true", "yes", "on"}
 
 _client: Optional[mqtt.Client] = None
 
@@ -71,6 +72,7 @@ def on_message(client, userdata, msg):
 def start_mqtt():
     """
     Initialize and start MQTT subscriber in background thread.
+    Set MQTT_USE_TLS=true to connect to cloud brokers (HiveMQ, EMQX) on port 8883.
     """
     global _client
     if _client is not None:
@@ -87,6 +89,12 @@ def start_mqtt():
 
     if MQTT_USERNAME and MQTT_PASSWORD:
         _client.username_pw_set(MQTT_USERNAME, MQTT_PASSWORD)
+
+    # Enable TLS for cloud brokers (HiveMQ Cloud, EMQX Cloud, etc.)
+    if MQTT_USE_TLS:
+        import ssl
+        _client.tls_set(cert_reqs=ssl.CERT_REQUIRED)
+        logger.info("[MQTT] TLS enabled — connecting to cloud broker")
 
     _client.on_connect = on_connect
     _client.on_disconnect = on_disconnect

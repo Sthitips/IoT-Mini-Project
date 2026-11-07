@@ -1,26 +1,23 @@
 import axios from "axios";
 
-// Using relative '/api' works on both localhost (laptop) and remote LAN IP (phone)
-// because Vite proxies '/api' directly to http://127.0.0.1:8000.
-// If accessing directly or in production, fallback to current hostname on port 8000.
+// In production (Vercel): VITE_API_URL = "https://agropulse-backend.onrender.com/api"
+// In dev (Vite port 5173): uses /api proxy defined in vite.config.js
 const getBaseURL = () => {
-  if (typeof window === "undefined") {
-    return "http://127.0.0.1:8000/api";
-  }
-
-  // If environment variable explicitly sets a non-localhost URL
+  // Explicit env var always wins (set in Vercel dashboard for production)
   const envUrl = import.meta.env.VITE_API_URL;
-  if (envUrl && envUrl !== "http://localhost:8000/api") {
-    return envUrl;
-  }
+  if (envUrl) return envUrl;
 
-  // If running on Vite dev server (port 5173), use relative '/api' proxy
-  if (window.location.port === "5173") {
+  // Dev server: use Vite proxy
+  if (typeof window !== "undefined" && window.location.port === "5173") {
     return "/api";
   }
 
-  // Otherwise, use the current host's port 8000
-  return `${window.location.protocol}//${window.location.hostname}:8000/api`;
+  // Fallback: same host on port 8000
+  if (typeof window !== "undefined") {
+    return `${window.location.protocol}//${window.location.hostname}:8000/api`;
+  }
+
+  return "http://127.0.0.1:8000/api";
 };
 
 const api = axios.create({

@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Node
+node_modules/
+dist/
+dist-ssr/
+.npm/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Runtime/local artifacts
+*.sqlite3
+*.db
+logs/
+*.log
+coverage/
+
+# Local generated data
+soil-monitor-backend/data/*.json
+!soil-monitor-backend/data/readings.json
+
+# Optional: keep all project docs and scripts tracked

@@ -1,0 +1,23 @@
+services:
+  - type: web
+    name: agropulse-backend
+    runtime: python
+    rootDir: soil-monitor-backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /health
+    envVars:
+      - key: MQTT_BROKER
+        value: broker.emqx.io
+      - key: MQTT_PORT
+        value: "1883"
+      - key: MQTT_USE_TLS
+        value: "false"
+      - key: MQTT_TOPIC
+        value: "soil-monitor/+/readings"
+      - key: CORS_ORIGINS
+        value: "*"
+      - key: DRY_RAW
+        value: "3000"
+      - key: WET_RAW
+        value: "1200"

@@ -10,9 +10,4 @@ else
   done
 fi
 
-for pid in $(pgrep -x mosquitto || true); do
-  echo "Stopping Mosquitto PID $pid"
-  kill "$pid" || true
-done
-
 echo "All project services stopped."

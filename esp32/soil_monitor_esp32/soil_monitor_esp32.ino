@@ -1,6 +1,7 @@
 /*
  * 🌱 Smart Soil Moisture Monitoring System - ESP32 Firmware
  * Target Board: ESP32 Dev Module
+ * MQTT: broker.emqx.io (public, no auth, port 1883)
  */
 
 #include <WiFi.h>
@@ -14,14 +15,12 @@
 const char* WIFI_SSID     = "mygigachigga";
 const char* WIFI_PASSWORD = "SreyAnsu109";
 
-// IMPORTANT: use the LAN IP of the PC running Mosquitto,
-// not localhost or 127.0.0.1
-const char* MQTT_BROKER   = "192.168.0.103";
+// ── Public EMQX broker — no signup needed ──
+const char* MQTT_BROKER   = "broker.emqx.io";
 const int   MQTT_PORT     = 1883;
-
-// Leave NULL unless you enabled MQTT auth in Mosquitto
-const char* MQTT_USER     = NULL;
-const char* MQTT_PASS     = NULL;
+const char* MQTT_USER     = "";   // no auth
+const char* MQTT_PASS     = "";   // no auth
+// ───────────────────────────────────────────
 
 // Device identity and MQTT topic
 const char* DEVICE_ID     = "esp32-001";
@@ -30,7 +29,7 @@ const char* MQTT_TOPIC    = "soil-monitor/esp32-001/readings";
 // ==========================================
 // 2. HARDWARE & TIMING SETTINGS
 // ==========================================
-const int SENSOR_PIN = 34; // ADC1 pin, good for analog soil sensor
+const int SENSOR_PIN = 34;
 const unsigned long SEND_INTERVAL_MS = 2000;
 
 // NTP settings for ISO timestamps
@@ -39,7 +38,7 @@ const long  GMT_OFFSET_SEC = 0;
 const int   DAYLIGHT_OFFSET_SEC = 0;
 
 // ==========================================
-// 3. GLOBAL OBJECTS
+// 3. GLOBAL OBJECTS (plain WiFiClient, no TLS)
 // ==========================================
 WiFiClient espClient;
 PubSubClient mqttClient(espClient);
@@ -117,7 +116,7 @@ void reconnectMQTT() {
     }
 
     if (connected) {
-      Serial.println("[MQTT] Connected successfully to Mosquitto!");
+      Serial.println("[MQTT] Connected successfully to HiveMQ Cloud!");
     } else {
       Serial.print("[MQTT] Connection failed, rc=");
       Serial.print(mqttClient.state());
