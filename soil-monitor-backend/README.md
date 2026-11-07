@@ -1,332 +1,149 @@
-# Soil Monitor Backend
+# 🌿 AgroPulse — Backend Service
 
-This folder contains the Python API and MQTT logic for the soil monitoring system.
+The backend is built with **FastAPI** and **Python 3.10+**. It runs a background **paho-mqtt** subscriber listening to real-time ESP32 telemetry from `broker.emqx.io`, normalizes timestamps, calculates calibrated volumetric moisture percentages, stores history in a JSON persistence layer, and exposes REST endpoints consumed by the React dashboard.
 
-## What it does
+---
 
-- subscribes to MQTT readings from the ESP32
-- validates incoming JSON payloads
-- converts analog sensor values into moisture percentages
-- stores the data in `data/readings.json`
-- exposes REST endpoints to the frontend
-- provides recommendation logic for watering actions
-
-## Project structure
+## 📁 Directory Structure
 
 ```text
 soil-monitor-backend/
 ├── app/
+│   ├── main.py                # FastAPI app initialization, CORS, and lifespan management
 │   ├── mqtt/
-│   │   └── subscriber.py
+│   │   └── subscriber.py      # Background MQTT client listening to sensor telemetry
 │   ├── routes/
-│   │   └── sensor.py
+│   │   └── sensor.py          # REST API route handlers
 │   ├── schemas/
-│   │   └── sensor.py
-│   ├── services/
-│   │   ├── conversion.py
-│   │   └── storage.py
-│   └── main.py
+│   │   └── sensor.py          # Pydantic validation models
+│   └── services/
+│       ├── conversion.py      # Raw ADC voltage to moisture percentage math
+│       ├── recommendations.py # Plant watering dosage and priority advisory
+│       └── storage.py         # Thread-safe reading storage and daily history retrieval
 ├── data/
-│   └── readings.json
-├── .env.example
-├── .gitignore
-├── requirements.txt
-├── test_backend.py
-├── test_routes.py
-└── README.md
+│   └── readings.json          # Persistent JSON telemetry store
+├── .env.example               # Configuration template
+├── requirements.txt           # Pinned production dependencies
+└── test_backend.py            # Unit test suite for calibration and storage logic
 ```
 
-## Requirements
+---
 
-- Python 3.10+
-- pip
-- access to a running Mosquitto broker
+## ⚙️ Environment Variables
 
-## Setup
+Copy the example file to create your local `.env`:
 
 ```bash
-cd soil-monitor-backend
+cp .env.example .env
+```
+
+| Variable | Default | Description |
+|:---|:---|:---|
+| `MQTT_BROKER` | `broker.emqx.io` | Cloud or local MQTT broker hostname |
+| `MQTT_PORT` | `1883` | MQTT port (1883 standard, 8883 for TLS) |
+| `MQTT_TOPIC` | `soil-monitor/+/readings` | Topic pattern with wildcard for device ID |
+| `MQTT_USE_TLS` | `false` | Enable TLS certificate verification if using TLS port |
+| `CORS_ORIGINS` | `*` | Allowed CORS origins for frontend access |
+| `DRY_RAW` | `3000` | Sensor raw ADC value when completely dry (in air) |
+| `WET_RAW` | `1200` | Sensor raw ADC value when fully saturated (in water) |
+
+---
+
+## 🚀 Local Setup & Execution
+
+### 1. Create Virtual Environment
+```bash
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-## Run the API
-
+### 2. Run the Development Server
 ```bash
-cd soil-monitor-backend
-source .venv/bin/activate
 uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
 ```
 
-The API will be available at:
+- API Base URL: `http://localhost:8000`
+- Interactive Swagger Documentation: `http://localhost:8000/docs`
+- Service Health Check: `http://localhost:8000/health`
 
-- http://localhost:8000
-- http://<your-lan-ip>:8000
+---
 
-## API endpoints
+## 📡 REST API Endpoints
 
-```text
-GET /                     -> API info and available routes
-GET /api/sensor/latest    -> latest reading for a device
-GET /api/sensor/history   -> historical readings for charting
-GET /api/sensor/status   -> device online/offline status
-POST /api/sensor/readings -> manually add a reading
-GET /api/recommendations -> watering recommendation
+### 1. Health Check
+`GET /health`
+```json
+{
+  "status": "ok",
+  "service": "agropulse-backend"
+}
 ```
 
-## MQTT message format
-
-Topic:
-
-```text
-soil-monitor/esp32-001/readings
-```
-
-Payload:
-
+### 2. Latest Sensor Reading
+`GET /api/sensor/latest?device_id=esp32-001`
 ```json
 {
   "device_id": "esp32-001",
-  "raw_value": 2100,
-  "timestamp": "2026-11-07T10:00:00Z"
+  "raw_value": 1650,
+  "moisture": 75,
+  "timestamp": "2026-11-07T11:06:18.885540Z"
 }
 ```
 
-The backend calculates the moisture percentage and stores the result in JSON.
-
-## Local data storage
-
-The data file is kept at:
-
-```text
-soil-monitor-backend/data/readings.json
-```
-
-This file is used as a simple local persistence layer. For production, you would normally replace it with a database.
-
-## Testing
-
-```bash
-cd soil-monitor-backend
-source .venv/bin/activate
-python test_backend.py
-```
-
-## GitHub push notes
-
-Keep this folder tracked, but exclude:
-
-- `.venv/`
-- `__pycache__/`
-- local secret environment files
-- generated logs
-
-Use `.env.example` to document environment variables without exposing real secrets.
-
-It should provide reusable functions for:
-
-- Saving a processed sensor reading.
-- Retrieving the latest reading.
-- Retrieving all readings for a device.
-- Retrieving readings for the current day.
-
-The storage format should be:
-
+### 3. Chronological History (Chart View)
+`GET /api/sensor/history?device_id=esp32-001`
 ```json
-{
-  "device_id": "esp32-001",
-  "raw_value": 2100,
-  "moisture": 65,
-  "timestamp": "2026-11-04T10:30:00Z"
-}
+[
+  {
+    "time": "2026-11-07T11:00:00Z",
+    "moisture": 72
+  },
+  {
+    "time": "2026-11-07T11:05:00Z",
+    "moisture": 75
+  }
+]
 ```
 
-Both the raw value and converted moisture percentage must be stored.
-
-All readings should be appended to `data/readings.json`.
-
-Use appropriate file locking and avoid rewriting the entire history for every incoming message. The system must handle the expected one-message-per-second publishing frequency.
-
-### F. `app/routes/sensor.py`
-
-**Responsibility: Sensor REST APIs**
-
-This file exposes the sensor-related API endpoints.
-
-| Endpoint | Method | Purpose |
-|---|---|---|
-| `/api/sensor/latest` | GET | Retrieve the latest reading |
-| `/api/sensor/history` | GET | Retrieve today's moisture history |
-| `/api/sensor/status` | GET | Retrieve ESP32 connectivity status |
-| `/api/sensor/readings` | POST | Insert a test reading |
-
-The POST endpoint is intended for testing without requiring an ESP32 connection.
-
-The history endpoint should return readings in chronological order.
-
-For chart efficiency, historical data may be aggregated into one-minute averages, while the latest-reading endpoint should always return the most recent actual reading.
-
-### G. `app/main.py`
-
-**Responsibility: Application entry point**
-
-This file should:
-
-1. Initialize the FastAPI application.
-2. Configure CORS for the React frontend.
-3. Register all API routers.
-4. Start and stop the MQTT subscriber using the application lifecycle.
-
-The MQTT subscriber must not block the FastAPI event loop.
-
-## 4. Frontend API Contract
-
-The React frontend expects the following endpoints and response formats.
-
-### Latest sensor reading
-
-`GET /api/sensor/latest`
-
-```json
-{
-  "device_id": "esp32-001",
-  "raw_value": 2100,
-  "moisture": 65,
-  "timestamp": "2026-11-04T10:30:00Z"
-}
-```
-
-### Historical readings
-
-`GET /api/sensor/history`
-
-```json
-{
-  "readings": [
-    {
-      "time": "10:00",
-      "moisture": 42
-    },
-    {
-      "time": "10:05",
-      "moisture": 55
-    },
-    {
-      "time": "10:10",
-      "moisture": 65
-    }
-  ]
-}
-```
-
-### Device status
-
-`GET /api/sensor/status`
-
+### 4. Device Connectivity Status
+`GET /api/sensor/status?device_id=esp32-001`
 ```json
 {
   "device_id": "esp32-001",
   "is_online": true,
-  "last_seen": "2026-11-04T10:30:00Z"
+  "last_seen": "2026-11-07T11:06:18.885540Z"
 }
 ```
 
-The device should be considered offline if no recent readings have arrived within the configured timeout.
-
-**API response formats must remain consistent**, as the React frontend consumes these structures directly.
-
-## 5. Setup Instructions
-
-### Prerequisites
-
-- Python 3.10 or later
-- Mosquitto MQTT broker
-- Node.js for the frontend
-
-### Backend installation
-
-Clone the repository and navigate to the backend folder.
-
-Create a virtual environment:
-
-```bash
-python -m venv .venv
-```
-
-Activate it on Windows:
-
-```bash
-.venv\Scripts\activate
-```
-
-Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-### Run FastAPI
-
-```bash
-uvicorn app.main:app --reload
-```
-
-Backend URL:
-
-```text
-http://127.0.0.1:8000
-```
-
-Swagger API documentation:
-
-```text
-http://127.0.0.1:8000/docs
-```
-
-## 6. Testing
-
-Before connecting the ESP32, test the backend using Swagger UI or Postman.
-
-Send a POST request to:
-
-```text
-POST /api/sensor/readings
-```
-
-Example request:
-
+### 5. Smart Irrigation Recommendations
+`GET /api/recommendations?device_id=esp32-001`
 ```json
 {
-  "device_id": "esp32-001",
-  "raw_value": 2100,
-  "timestamp": "2026-11-04T10:30:00Z"
+  "status": "Optimal Range",
+  "moisture": 75,
+  "action": "Maintain routine monitoring. Soil moisture is currently balanced.",
+  "priority": "low",
+  "dosage_ml": 0
 }
 ```
-
-Verify that:
-
-1. The backend accepts the payload.
-2. The raw value is converted into a moisture percentage.
-3. Both raw and converted values are saved.
-4. The latest-reading API returns the processed reading.
-5. The history endpoint returns today's readings.
-6. The recommendation endpoint returns the expected message.
-
-After these checks, test the same flow through MQTT.
-
-## 7. Important Integration Rules
-
-- ESP32 publishes only `device_id`, `raw_value` and `timestamp`.
-- Mosquitto is responsible for MQTT message delivery.
-- FastAPI handles validation and raw-to-moisture conversion.
-- JSON storage maintains the reading history.
-- React must receive converted moisture values, never raw values for display.
-- MQTT subscriber and POST testing endpoint must use the same reading-processing and storage functions.
-- The latest sensor reading should be kept separately from aggregated chart history.
-- Do not create a separate database.
-- Keep broker credentials outside the source code.
 
 ---
 
-**Integration objective:** The ESP32 should publish a raw sensor reading to Mosquitto, the FastAPI subscriber should process and store it, and the React dashboard should automatically display the updated moisture percentage and historical trend.
+## 🧪 Testing
+
+Execute the test suite to verify conversion and aggregation algorithms:
+
+```bash
+python3 test_backend.py
+```
+
+Expected output:
+```text
+Testing conversion logic...
+✓ Conversion logic tests passed.
+Testing storage logic...
+✓ Storage and aggregation tests passed.
+
+🎉 ALL BACKEND UNIT TESTS PASSED!
+```

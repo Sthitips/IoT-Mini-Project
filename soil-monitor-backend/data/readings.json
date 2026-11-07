@@ -3850,5 +3850,4985 @@
     "raw_value": 4095,
     "moisture": 1,
     "timestamp": "2026-11-07T11:38:27.106790Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:38:29.049124Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:38:31.100601Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:38:33.017643Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:38:35.620865Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:38:37.139132Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:38:39.014380Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:38:41.247969Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:38:43.079243Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:38:45.130639Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:38:47.074978Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:38:49.019235Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:38:51.066072Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:38:53.014575Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:38:55.022401Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:38:57.115259Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:38:59.054750Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:39:01.103940Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:39:03.149010Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:39:05.102947Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:39:07.045092Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:39:09.013991Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:39:11.133683Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:39:13.184356Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:39:15.543743Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:39:17.017113Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:39:19.017475Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:39:21.030979Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:39:23.039532Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:39:25.086062Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:39:27.012754Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:39:39.511248Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:39:39.908427Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:39:39.922498Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:39:39.935666Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:39:39.949875Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:39:39.966770Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:39:41.012871Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:39:43.085569Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:39:45.055685Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:39:47.013530Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:39:49.024185Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:39:51.026784Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:39:53.021691Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:39:55.022866Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:39:57.021538Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:39:59.014805Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:40:01.011920Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:40:03.011292Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:40:05.014751Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:40:07.032800Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:40:09.014260Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:40:11.057237Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:40:13.105576Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:40:15.139741Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:40:17.035136Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:40:19.075891Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:40:21.085078Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:40:23.026911Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:40:25.070194Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:40:27.231330Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:40:29.064192Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:40:31.012982Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:40:33.058993Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:40:35.109689Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:40:37.053464Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:40:39.013870Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:40:41.048179Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:40:43.092938Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:40:45.042960Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:40:47.089774Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:40:49.240172Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:40:51.287139Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:40:53.131953Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:40:55.188318Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:40:57.128317Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:40:59.072858Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:41:01.026989Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:41:03.020738Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:41:05.112130Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:41:07.013571Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:41:09.182973Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:41:11.056906Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:41:13.027748Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:41:15.026409Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:41:17.097728Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:41:19.011794Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:41:26.373974Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:41:26.691683Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:41:26.705363Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:41:27.020100Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:41:29.072650Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:41:31.121460Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:41:33.052565Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:41:35.114130Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:41:37.061676Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:41:39.018306Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:41:41.063350Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:41:43.099698Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:41:45.045626Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:41:47.098490Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:41:49.139690Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:41:51.017035Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:41:53.136902Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:41:55.064747Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:41:57.009110Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:41:59.043336Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:42:01.014971Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:42:03.068038Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:42:05.126514Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:42:07.061892Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:42:09.073168Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:42:11.072393Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:42:13.107372Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:42:15.021730Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:42:17.103632Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:42:19.045727Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:42:21.092722Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:42:23.149527Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:42:25.084833Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:42:27.135625Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:42:29.081235Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:42:31.127406Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:42:33.072866Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:42:35.124705Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:42:37.176513Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:42:39.318288Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:42:41.172049Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:42:44.340901Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:42:45.158072Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:42:47.037224Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:42:49.048043Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:42:51.098614Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:42:53.019307Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:43:00.988043Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:43:01.133666Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:43:01.232139Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:43:01.249469Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:43:03.041335Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:43:05.080494Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:43:07.072586Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:43:09.133047Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:43:11.064543Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:43:13.111130Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:43:15.061652Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:43:17.217136Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:43:19.036644Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:43:21.102440Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:43:23.046405Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:43:25.096779Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:43:27.044743Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:43:29.088717Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:43:31.240768Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:43:33.082871Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:43:35.106093Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:43:37.072716Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:43:39.185199Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:43:42.807181Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:43:43.340575Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:43:45.060040Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:43:47.111610Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:43:49.056611Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:43:51.108338Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:43:53.050818Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:43:55.298860Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:43:57.144228Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:43:59.096127Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:44:01.137083Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:44:03.083859Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:44:05.114880Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:44:07.089468Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:44:09.023506Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:44:11.070319Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:44:13.221947Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:44:15.025423Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:44:17.111402Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:44:19.059610Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:44:21.106818Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:44:23.047923Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:44:25.105158Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:44:27.144025Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:44:29.019189Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:44:31.042832Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:44:33.100014Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:44:35.134569Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:44:37.090871Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:44:39.052828Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:44:41.086236Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:44:43.125851Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:44:45.052886Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:44:47.101121Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:44:49.061049Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:44:51.112067Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:44:53.055485Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:44:55.180874Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:44:57.048116Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:44:59.080323Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:45:01.144685Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:45:03.090086Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:45:05.041734Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:45:07.080190Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:45:09.131497Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:45:11.083220Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:45:13.126877Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:45:15.083592Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:45:18.863512Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:45:19.271046Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:45:21.116041Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:45:23.061199Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:45:25.106012Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:45:27.055501Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:45:29.100898Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:45:31.148450Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:45:33.105459Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:45:35.046733Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:45:37.089346Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:45:39.032735Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:45:41.033614Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:45:43.026096Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:45:45.074783Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:45:47.122803Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:45:49.068177Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:45:51.116200Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:45:53.021083Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:45:55.016234Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:45:57.055601Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:45:59.103336Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:46:01.052489Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:46:03.022379Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:46:05.040879Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:46:07.068864Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:46:09.138581Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:46:11.090949Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:46:13.131770Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:46:15.077985Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:46:17.137849Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:46:19.079256Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:46:21.122539Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:46:23.052080Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:46:25.111567Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:46:27.060856Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:46:29.107151Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:46:31.052648Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4091,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:46:33.031824Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:46:35.029150Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:46:37.091403Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:46:46.311721Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:46:46.603209Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:46:46.614212Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:46:46.634805Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:46:47.048533Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:46:49.029699Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:46:54.002373Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:46:54.297691Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:46:55.038935Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:46:57.085142Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:46:59.024845Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:47:01.022111Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:47:03.027290Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:47:05.060123Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:47:07.098690Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:47:09.083984Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:47:11.096558Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:47:13.037500Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:47:15.085307Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:47:17.133404Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:47:19.078969Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:47:21.133179Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:47:23.076464Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:47:25.121732Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:47:27.069429Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:47:29.124046Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:47:31.064791Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:47:33.111246Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:47:35.053599Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:47:37.104456Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:47:39.050183Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:47:41.200538Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:47:43.146961Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:47:45.090368Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:47:47.140878Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:47:49.086399Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:47:51.136425Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:47:53.079193Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:47:55.027768Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:47:57.072829Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:47:59.120386Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:48:01.069193Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:48:03.213559Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:48:05.156000Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:48:07.105538Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:48:09.150304Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:48:11.112551Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:48:13.146213Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:48:15.051304Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:48:17.024781Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:48:19.018228Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:48:21.042589Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:48:23.033447Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:48:25.025777Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:48:27.488156Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:48:29.027337Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:48:31.096799Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:48:33.070538Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:48:35.031462Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:48:37.026916Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:48:39.057261Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:48:41.170331Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:48:43.032352Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:48:45.111457Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:48:47.038041Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:48:49.050396Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:48:51.110698Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:48:53.036537Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:48:55.052835Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:48:57.040985Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:48:59.329236Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:49:01.072967Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:49:03.123395Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:49:05.079671Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:49:07.118891Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:49:09.060549Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:49:11.108138Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:49:13.220082Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:49:15.099913Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:49:17.149930Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:49:19.107188Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:49:21.145043Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:49:23.053391Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:49:25.135971Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:49:27.084298Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:49:29.131479Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:49:31.073708Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:49:33.124981Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:49:35.081899Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:49:37.123308Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:49:39.081493Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:49:41.110164Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:49:43.160333Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:49:45.043866Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:49:47.049231Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:49:49.098192Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:49:51.045576Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:49:53.029216Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:49:55.139359Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:49:57.088834Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:49:59.134895Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:50:01.084288Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:50:03.025430Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:50:05.027631Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:50:07.102660Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:50:09.069591Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:50:11.049810Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:50:13.061735Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:50:15.067550Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:50:17.034867Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:50:19.029896Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:50:21.182660Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:50:23.099437Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:50:25.038845Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:50:27.101407Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:50:29.138756Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:50:31.086823Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:50:33.230944Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:50:35.032953Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:50:37.125581Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:50:39.068316Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:50:41.021878Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:50:43.051843Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:50:45.114041Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:50:47.032170Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:50:49.104499Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:50:51.063961Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:50:53.047466Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:50:55.043885Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:50:57.033559Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:50:59.040372Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:51:01.108407Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:51:03.132257Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:51:05.284737Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:51:07.139019Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:51:09.105212Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:51:11.125695Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:51:13.069673Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:51:15.114631Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:51:17.164209Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:51:19.113193Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:51:21.773092Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:51:23.052651Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:51:25.149774Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:51:27.097432Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:51:29.255858Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:51:31.193672Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:51:33.140300Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:51:35.084546Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:51:37.132103Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:51:39.039028Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:51:41.035402Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:51:43.039516Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:51:45.033366Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:51:47.065784Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:51:49.022410Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:51:51.033911Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:51:53.205437Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:51:55.033840Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:51:57.029129Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:51:59.046308Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:52:01.095113Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:52:03.142175Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:52:05.052859Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:52:07.138004Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:52:09.147845Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:52:11.128382Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:52:13.118127Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 2842,
+    "moisture": 10,
+    "timestamp": "2026-11-07T11:52:15.222527Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 2067,
+    "moisture": 52,
+    "timestamp": "2026-11-07T11:52:17.168474Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 2141,
+    "moisture": 48,
+    "timestamp": "2026-11-07T11:52:19.078345Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 2202,
+    "moisture": 45,
+    "timestamp": "2026-11-07T11:52:21.091241Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 2254,
+    "moisture": 42,
+    "timestamp": "2026-11-07T11:52:23.114025Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 2294,
+    "moisture": 40,
+    "timestamp": "2026-11-07T11:52:25.043420Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 2337,
+    "moisture": 37,
+    "timestamp": "2026-11-07T11:52:27.109183Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 2370,
+    "moisture": 36,
+    "timestamp": "2026-11-07T11:52:29.146971Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 2395,
+    "moisture": 34,
+    "timestamp": "2026-11-07T11:52:31.101455Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 2410,
+    "moisture": 33,
+    "timestamp": "2026-11-07T11:52:33.041817Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 2433,
+    "moisture": 32,
+    "timestamp": "2026-11-07T11:52:35.101438Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 2443,
+    "moisture": 32,
+    "timestamp": "2026-11-07T11:52:37.034673Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 2452,
+    "moisture": 31,
+    "timestamp": "2026-11-07T11:52:39.034083Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 2454,
+    "moisture": 31,
+    "timestamp": "2026-11-07T11:52:41.038914Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 2459,
+    "moisture": 31,
+    "timestamp": "2026-11-07T11:52:43.033215Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 2463,
+    "moisture": 31,
+    "timestamp": "2026-11-07T11:52:45.036462Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 2466,
+    "moisture": 30,
+    "timestamp": "2026-11-07T11:52:47.077025Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 2460,
+    "moisture": 31,
+    "timestamp": "2026-11-07T11:52:49.125099Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 2463,
+    "moisture": 31,
+    "timestamp": "2026-11-07T11:52:51.062634Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 2465,
+    "moisture": 30,
+    "timestamp": "2026-11-07T11:52:53.036622Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 2462,
+    "moisture": 31,
+    "timestamp": "2026-11-07T11:52:55.058434Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 2465,
+    "moisture": 30,
+    "timestamp": "2026-11-07T11:52:57.041037Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 2459,
+    "moisture": 31,
+    "timestamp": "2026-11-07T11:52:59.072663Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 2462,
+    "moisture": 31,
+    "timestamp": "2026-11-07T11:53:01.044650Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 2460,
+    "moisture": 31,
+    "timestamp": "2026-11-07T11:53:03.048726Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 2460,
+    "moisture": 31,
+    "timestamp": "2026-11-07T11:53:05.032144Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 2461,
+    "moisture": 31,
+    "timestamp": "2026-11-07T11:53:07.036912Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 2463,
+    "moisture": 31,
+    "timestamp": "2026-11-07T11:53:09.036335Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 2463,
+    "moisture": 31,
+    "timestamp": "2026-11-07T11:53:11.076132Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 2459,
+    "moisture": 31,
+    "timestamp": "2026-11-07T11:53:13.043153Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 2464,
+    "moisture": 30,
+    "timestamp": "2026-11-07T11:53:15.208785Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 2465,
+    "moisture": 30,
+    "timestamp": "2026-11-07T11:53:17.079478Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 2470,
+    "moisture": 30,
+    "timestamp": "2026-11-07T11:53:19.041487Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 2460,
+    "moisture": 31,
+    "timestamp": "2026-11-07T11:53:21.041087Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 2465,
+    "moisture": 30,
+    "timestamp": "2026-11-07T11:53:23.038802Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 2466,
+    "moisture": 30,
+    "timestamp": "2026-11-07T11:53:25.044683Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 2463,
+    "moisture": 31,
+    "timestamp": "2026-11-07T11:53:27.043831Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 2468,
+    "moisture": 30,
+    "timestamp": "2026-11-07T11:53:29.035071Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 2468,
+    "moisture": 30,
+    "timestamp": "2026-11-07T11:53:31.035246Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 2467,
+    "moisture": 30,
+    "timestamp": "2026-11-07T11:53:33.047524Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 2467,
+    "moisture": 30,
+    "timestamp": "2026-11-07T11:53:35.049591Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 2469,
+    "moisture": 30,
+    "timestamp": "2026-11-07T11:53:37.032115Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 2467,
+    "moisture": 30,
+    "timestamp": "2026-11-07T11:53:39.040911Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 2467,
+    "moisture": 30,
+    "timestamp": "2026-11-07T11:53:41.041649Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 2458,
+    "moisture": 31,
+    "timestamp": "2026-11-07T11:53:43.037154Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 2466,
+    "moisture": 30,
+    "timestamp": "2026-11-07T11:53:45.034246Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 2473,
+    "moisture": 30,
+    "timestamp": "2026-11-07T11:53:47.034582Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 2462,
+    "moisture": 31,
+    "timestamp": "2026-11-07T11:53:49.037034Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 2467,
+    "moisture": 30,
+    "timestamp": "2026-11-07T11:53:51.044724Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 2464,
+    "moisture": 30,
+    "timestamp": "2026-11-07T11:53:53.121213Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 2475,
+    "moisture": 30,
+    "timestamp": "2026-11-07T11:53:55.058304Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 2468,
+    "moisture": 30,
+    "timestamp": "2026-11-07T11:53:57.118468Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 2462,
+    "moisture": 31,
+    "timestamp": "2026-11-07T11:53:59.038354Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 2470,
+    "moisture": 30,
+    "timestamp": "2026-11-07T11:54:01.036823Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 2465,
+    "moisture": 30,
+    "timestamp": "2026-11-07T11:54:03.065578Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 2470,
+    "moisture": 30,
+    "timestamp": "2026-11-07T11:54:05.035553Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 2467,
+    "moisture": 30,
+    "timestamp": "2026-11-07T11:54:07.046019Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 2462,
+    "moisture": 31,
+    "timestamp": "2026-11-07T11:54:09.043520Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 2462,
+    "moisture": 31,
+    "timestamp": "2026-11-07T11:54:11.040612Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 2461,
+    "moisture": 31,
+    "timestamp": "2026-11-07T11:54:13.052060Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 2460,
+    "moisture": 31,
+    "timestamp": "2026-11-07T11:54:15.041714Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 2457,
+    "moisture": 31,
+    "timestamp": "2026-11-07T11:54:17.037076Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 2459,
+    "moisture": 31,
+    "timestamp": "2026-11-07T11:54:19.038226Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 2467,
+    "moisture": 30,
+    "timestamp": "2026-11-07T11:54:21.042493Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 2462,
+    "moisture": 31,
+    "timestamp": "2026-11-07T11:54:23.126380Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 2454,
+    "moisture": 31,
+    "timestamp": "2026-11-07T11:54:25.069157Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 2459,
+    "moisture": 31,
+    "timestamp": "2026-11-07T11:54:27.033792Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 2457,
+    "moisture": 31,
+    "timestamp": "2026-11-07T11:54:29.038380Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 2454,
+    "moisture": 31,
+    "timestamp": "2026-11-07T11:54:31.113741Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 2462,
+    "moisture": 31,
+    "timestamp": "2026-11-07T11:54:33.109945Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 2459,
+    "moisture": 31,
+    "timestamp": "2026-11-07T11:54:35.038077Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 2463,
+    "moisture": 31,
+    "timestamp": "2026-11-07T11:54:37.051829Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 2460,
+    "moisture": 31,
+    "timestamp": "2026-11-07T11:54:39.036517Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 2457,
+    "moisture": 31,
+    "timestamp": "2026-11-07T11:54:41.039505Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 2461,
+    "moisture": 31,
+    "timestamp": "2026-11-07T11:54:43.088539Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 2455,
+    "moisture": 31,
+    "timestamp": "2026-11-07T11:54:45.242203Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 2459,
+    "moisture": 31,
+    "timestamp": "2026-11-07T11:54:47.187775Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 2460,
+    "moisture": 31,
+    "timestamp": "2026-11-07T11:54:49.136155Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 2461,
+    "moisture": 31,
+    "timestamp": "2026-11-07T11:54:51.080534Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 2463,
+    "moisture": 31,
+    "timestamp": "2026-11-07T11:54:53.127027Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 2462,
+    "moisture": 31,
+    "timestamp": "2026-11-07T11:54:55.175232Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 2470,
+    "moisture": 30,
+    "timestamp": "2026-11-07T11:54:57.122568Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 2463,
+    "moisture": 31,
+    "timestamp": "2026-11-07T11:54:59.129562Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 2464,
+    "moisture": 30,
+    "timestamp": "2026-11-07T11:55:01.122361Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 2466,
+    "moisture": 30,
+    "timestamp": "2026-11-07T11:55:03.164621Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 2471,
+    "moisture": 30,
+    "timestamp": "2026-11-07T11:55:05.036124Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 2465,
+    "moisture": 30,
+    "timestamp": "2026-11-07T11:55:07.154833Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 2469,
+    "moisture": 30,
+    "timestamp": "2026-11-07T11:55:09.205187Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 2680,
+    "moisture": 19,
+    "timestamp": "2026-11-07T11:55:11.154320Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:55:13.100163Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:55:15.659221Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:55:17.098135Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:55:19.137673Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:55:21.103374Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:55:23.130933Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:55:25.080931Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:55:28.866014Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:55:29.378190Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:55:31.222374Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:55:33.168873Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:55:35.115300Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:55:37.160351Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:55:39.210330Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:55:41.360779Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:55:43.099432Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:55:45.155372Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:55:47.099068Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:55:49.144938Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:55:51.088555Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:55:53.136052Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:55:55.081040Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:55:57.128227Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:55:59.177616Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:56:01.085354Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:56:03.071799Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:56:05.116192Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:56:07.266111Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:56:09.110364Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:56:11.156985Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:56:13.104726Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:56:15.152091Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:56:17.097028Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:56:19.147980Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:56:21.304038Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:56:23.138893Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:56:25.084590Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:56:27.139634Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:56:29.298580Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:56:33.679713Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:56:33.701755Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:56:35.037134Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:56:37.045845Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:56:39.039801Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:56:41.161815Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:56:43.092940Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:56:45.049828Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:56:47.052905Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:56:49.251226Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:56:51.102371Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:56:53.142112Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:56:55.087207Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:56:57.136529Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:56:59.083754Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:57:01.133709Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:57:03.052337Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:57:05.130038Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:57:07.068750Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:57:09.056637Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:57:11.045665Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:57:13.107008Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:57:15.155672Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:57:17.105081Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:57:19.149297Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:57:21.098658Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:57:23.145739Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:57:25.092863Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:57:27.064086Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:57:29.495903Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:57:31.058022Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:57:33.284298Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:57:35.129581Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:57:37.089641Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:57:39.122619Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:57:41.170024Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:57:43.217313Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:57:45.061095Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:57:47.043600Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:57:49.152080Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:57:51.097642Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:57:53.051687Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:57:55.306998Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:57:57.139426Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:57:59.085662Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:58:01.173321Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:58:03.181963Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:58:05.127095Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:58:07.280414Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:58:09.042315Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:58:11.040934Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:58:13.075797Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:58:15.879298Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:58:17.153186Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:58:19.070730Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:58:21.054523Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:58:23.073354Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:58:25.099230Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:58:27.052465Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:58:29.052080Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:58:31.045649Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:58:33.059176Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:58:35.044368Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:58:37.046078Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:58:39.047006Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:58:41.063295Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:58:43.048464Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:58:45.054630Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:58:47.116846Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:58:49.043913Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:58:51.064955Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:58:53.049805Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:58:55.044927Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:58:57.037615Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:58:59.687885Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:59:01.042868Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:59:03.093799Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:59:05.138097Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:59:07.083506Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:59:09.132232Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:59:11.046815Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:59:13.047893Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:59:15.044933Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:59:17.118766Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:59:19.163751Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:59:21.113221Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:59:23.161174Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:59:25.059376Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:59:27.509044Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:59:29.055093Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:59:31.052196Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:59:33.091065Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:59:35.141293Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:59:37.086850Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:59:39.708978Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:59:41.184116Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:59:43.128410Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:59:45.073849Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:59:47.122148Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:59:49.170753Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:59:51.115153Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:59:53.160734Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:59:55.217346Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:59:57.157945Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T11:59:59.102787Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:00:01.052972Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:00:03.056839Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:00:05.053373Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:00:07.047420Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:00:09.043958Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:00:11.083881Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:00:13.133655Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:00:15.078638Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:00:17.122673Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:00:19.170833Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:00:21.045988Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:00:23.042290Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:00:25.047904Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:00:27.160736Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:00:29.106131Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:00:31.070344Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:00:33.096713Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:00:35.149878Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:00:37.091288Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:00:39.241349Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:00:41.087189Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:00:43.136972Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:00:45.049640Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:00:47.048790Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:00:49.864002Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:00:51.386168Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:00:53.064660Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:00:55.046347Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:00:57.049251Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:00:59.110809Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:01:01.049820Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:01:03.045456Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:01:05.048992Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:01:07.096169Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:01:09.142862Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:01:11.092186Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:01:13.056315Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:01:15.063064Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:01:17.055299Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:01:19.052874Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:01:21.037506Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:01:23.580944Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:01:25.120831Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:01:27.075419Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:01:29.035977Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:01:31.057105Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:01:33.108219Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:01:35.082505Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:01:37.054192Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:01:39.047687Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:01:41.065761Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:01:43.053328Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:01:45.089675Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:01:47.135818Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:01:49.053867Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:01:51.050299Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:01:53.075137Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 2100,
+    "moisture": 50,
+    "timestamp": "2026-11-07T12:01:54.124308Z"
+  },
+  {
+    "device_id": "chart-debug",
+    "raw_value": 2000,
+    "moisture": 56,
+    "timestamp": "2026-11-07T12:01:00Z"
+  },
+  {
+    "device_id": "chart-debug",
+    "raw_value": 5000,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:01:20Z"
+  },
+  {
+    "device_id": "chart-debug",
+    "raw_value": 3000,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:01:54.278535Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 2400,
+    "moisture": 34,
+    "timestamp": "2026-11-07T12:01:54.298620Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 2400,
+    "moisture": 34,
+    "timestamp": "2026-11-07T12:01:54.320060Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:01:55.049429Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:01:57.052824Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:01:59.055991Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:02:01.051071Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:02:03.044800Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:02:05.062647Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:02:07.104715Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:02:09.056099Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:02:11.107117Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:02:13.112834Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:02:15.069478Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:02:17.063619Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:02:19.060827Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:02:21.047747Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:02:23.076119Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:02:25.127883Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:02:27.069397Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:02:29.117575Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:02:31.779871Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:02:33.727060Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:02:35.162684Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:02:37.108908Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:02:41.508743Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:02:42.226235Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:02:46.842019Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:02:46.865111Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:02:47.100619Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:02:49.191989Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:02:51.138983Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:02:53.594668Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:02:55.131797Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:02:57.079882Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:02:59.127524Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:03:01.175945Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:03:03.121906Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:03:05.168651Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:03:07.116648Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:03:09.163198Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:03:11.106026Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:03:13.154634Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:03:15.304887Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:03:17.150567Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:03:19.092867Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:03:21.158765Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:03:23.910424Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:03:25.052326Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:03:27.900849Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:03:29.129753Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:03:31.066912Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:03:33.068225Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:03:35.053992Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:03:37.060433Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:03:39.129087Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:03:41.241492Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:03:43.065804Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:03:45.119656Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:03:47.067055Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:03:49.151729Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:03:51.055095Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:03:53.057711Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:03:55.074911Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:03:57.050870Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:03:59.050872Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:04:01.051035Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:04:03.125510Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:04:05.173464Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:04:07.050884Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:04:09.086964Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:04:11.061931Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:04:13.079720Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:04:15.110507Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:04:17.154636Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:04:19.054321Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:04:21.054213Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:04:23.060801Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:04:25.068041Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:04:27.064021Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:04:29.131988Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:04:31.062700Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:04:33.139108Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:04:35.185902Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:04:37.225194Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:04:39.071963Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:04:41.117348Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:04:43.172464Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:04:45.091132Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:04:47.053954Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:04:49.072028Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:04:51.049310Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:04:53.061745Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:04:55.049899Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:04:57.091255Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:04:59.049677Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:05:01.061529Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:05:03.057912Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:05:05.051503Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:05:07.125878Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:05:09.056292Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:05:11.059066Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:05:13.084231Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:05:15.103814Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:05:17.059255Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:05:19.104437Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:05:21.159240Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:05:23.101158Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:05:25.148889Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:05:27.094391Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:05:29.064946Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:05:31.071525Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:05:33.101928Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:05:35.098096Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:05:37.052659Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:05:39.075890Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:05:41.132019Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:05:43.085325Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:05:45.051515Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:05:47.058888Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:05:49.091718Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:05:51.155862Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:05:53.054151Z"
+  },
+  {
+    "device_id": "esp32-001",
+    "raw_value": 4095,
+    "moisture": 1,
+    "timestamp": "2026-11-07T12:05:55.061208Z"
   }
 ]

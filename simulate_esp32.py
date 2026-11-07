@@ -47,14 +47,14 @@ def get_simulated_raw_value(mode: str, step: int) -> int:
 
 def main():
     parser = argparse.ArgumentParser(description="Simulate ESP32 Soil Sensor publishing to MQTT")
-    parser.add_argument("--broker", default="broker.hivemq.cloud", help="MQTT Broker host (default: broker.hivemq.cloud)")
-    parser.add_argument("--port", type=int, default=8883, help="MQTT Broker port (default: 8883)")
+    parser.add_argument("--broker", default="broker.emqx.io", help="MQTT Broker host (default: broker.emqx.io)")
+    parser.add_argument("--port", type=int, default=1883, help="MQTT Broker port (default: 1883)")
     parser.add_argument("--device", default="esp32-001", help="Device ID (default: esp32-001)")
     parser.add_argument("--interval", type=float, default=2.0, help="Interval in seconds (default: 2.0)")
     parser.add_argument("--mode", choices=["dry", "wet", "dynamic"], default="dynamic", help="Simulation mode")
-    parser.add_argument("--username", default=None, help="HiveMQ username")
-    parser.add_argument("--password", default=None, help="HiveMQ password")
-    parser.add_argument("--tls", action="store_true", help="Enable TLS for HiveMQ Cloud")
+    parser.add_argument("--username", default=None, help="MQTT username (optional)")
+    parser.add_argument("--password", default=None, help="MQTT password (optional)")
+    parser.add_argument("--tls", action="store_true", help="Enable TLS (optional)")
     args = parser.parse_args()
 
     topic = f"soil-monitor/{args.device}/readings"

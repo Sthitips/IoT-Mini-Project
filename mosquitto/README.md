@@ -4,7 +4,7 @@ This folder contains the Mosquitto configuration for the IoT project.
 
 ## Purpose
 
-Mosquitto acts as the MQTT broker between the ESP32 sensor node and the Python backend.
+This folder contains local configuration for Mosquitto. Note that the project is configured by default to use the cloud broker **`broker.emqx.io:1883`**, so running a local Mosquitto broker is entirely optional and only needed for fully offline local testing.
 
 ## Files
 

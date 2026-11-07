@@ -1,7 +1,7 @@
 /*
- * 🌱 Smart Soil Moisture Monitoring System - ESP32 Firmware
- * Target Board: ESP32 Dev Module
- * MQTT: broker.emqx.io (public, no auth, port 1883)
+ * Smart Soil Moisture Monitoring System - ESP32 Firmware
+ * Hardware: ESP32 Dev Module + Analog Capacitive/Resistive Soil Moisture Sensor (GPIO 34)
+ * Broker: broker.emqx.io:1883 (public MQTT)
  */
 
 #include <WiFi.h>
@@ -9,47 +9,32 @@
 #include <ArduinoJson.h>
 #include <time.h>
 
-// ==========================================
-// 1. NETWORK & MQTT CONFIGURATION
-// ==========================================
+// Wi-Fi credentials
 const char* WIFI_SSID     = "mygigachigga";
 const char* WIFI_PASSWORD = "SreyAnsu109";
 
-// ── Public EMQX broker — no signup needed ──
+// MQTT broker configuration
 const char* MQTT_BROKER = "broker.emqx.io";
 const int   MQTT_PORT   = 1883;
-// ───────────────────────────────────────────
+const char* DEVICE_ID   = "esp32-001";
+const char* MQTT_TOPIC  = "soil-monitor/esp32-001/readings";
 
-// Device identity and MQTT topic
-const char* DEVICE_ID     = "esp32-001";
-const char* MQTT_TOPIC    = "soil-monitor/esp32-001/readings";
-
-// ==========================================
-// 2. HARDWARE & TIMING SETTINGS
-// ==========================================
+// Sensor pin (ADC1) and sampling rate
 const int SENSOR_PIN = 34;
 const unsigned long SEND_INTERVAL_MS = 2000;
 
-// NTP settings for ISO timestamps
+// NTP configuration for UTC timestamps
 const char* NTP_SERVER = "pool.ntp.org";
 const long  GMT_OFFSET_SEC = 0;
 const int   DAYLIGHT_OFFSET_SEC = 0;
 
-// ==========================================
-// 3. GLOBAL OBJECTS (plain WiFiClient, no TLS)
-// ==========================================
 WiFiClient espClient;
 PubSubClient mqttClient(espClient);
 unsigned long lastSendTime = 0;
 
-// ==========================================
-// 4. HELPER FUNCTIONS
-// ==========================================
-
 void setupWiFi() {
   delay(10);
-  Serial.println();
-  Serial.print("Connecting to Wi-Fi SSID: ");
+  Serial.print("Connecting to Wi-Fi: ");
   Serial.println(WIFI_SSID);
 
   WiFi.mode(WIFI_STA);
@@ -63,9 +48,7 @@ void setupWiFi() {
   }
 
   if (WiFi.status() == WL_CONNECTED) {
-    Serial.println("\n[WiFi] Connected successfully!");
-    Serial.print("[WiFi] ESP32 IP address: ");
-    Serial.println(WiFi.localIP());
+    Serial.println("\n[WiFi] Connected. IP: " + WiFi.localIP().toString());
   } else {
     Serial.println("\n[WiFi] Connection failed. Will retry in loop.");
   }
@@ -73,15 +56,15 @@ void setupWiFi() {
 
 void setupNTP() {
   configTime(GMT_OFFSET_SEC, DAYLIGHT_OFFSET_SEC, NTP_SERVER);
-  Serial.println("[NTP] Synchronizing time...");
   struct tm timeinfo;
   if (getLocalTime(&timeinfo, 5000)) {
-    Serial.println("[NTP] Time synchronized successfully.");
+    Serial.println("[NTP] Time synchronized.");
   } else {
-    Serial.println("[NTP] Failed to obtain time.");
+    Serial.println("[NTP] Sync pending, will retry.");
   }
 }
 
+// Returns ISO 8601 UTC timestamp or empty string if NTP is not yet synced
 String getISO8601Timestamp() {
   struct tm timeinfo;
   if (getLocalTime(&timeinfo, 500)) {
@@ -89,34 +72,28 @@ String getISO8601Timestamp() {
     strftime(buffer, sizeof(buffer), "%Y-%m-%dT%H:%M:%SZ", &timeinfo);
     return String(buffer);
   }
-
-  // If NTP not yet synced, try re-syncing in background
   configTime(GMT_OFFSET_SEC, DAYLIGHT_OFFSET_SEC, NTP_SERVER);
-  // Return empty so backend assigns true current UTC time
   return String("");
 }
 
 void reconnectMQTT() {
   while (!mqttClient.connected()) {
-    Serial.print("[MQTT] Connecting to ");
-    Serial.print(MQTT_BROKER);
-    Serial.print(":");
-    Serial.println(MQTT_PORT);
-
+    Serial.printf("[MQTT] Connecting to %s:%d...\n", MQTT_BROKER, MQTT_PORT);
     String clientId = "ESP32-" + String(random(0xffff), HEX);
 
     if (mqttClient.connect(clientId.c_str())) {
-      Serial.println("[MQTT] Connected to broker.emqx.io!");
+      Serial.println("[MQTT] Connected to broker.");
     } else {
-      Serial.print("[MQTT] Failed, rc=");
-      Serial.print(mqttClient.state());
-      Serial.println(" — retrying in 3s...");
+      Serial.printf("[MQTT] Connection failed (rc=%d). Retrying in 3s...\n", mqttClient.state());
       delay(3000);
-      if (WiFi.status() != WL_CONNECTED) setupWiFi();
+      if (WiFi.status() != WL_CONNECTED) {
+        setupWiFi();
+      }
     }
   }
 }
 
+// Multi-sample average to filter ADC voltage noise
 int readMoistureSensorAveraged(int pin, int samples = 10) {
   long sum = 0;
   for (int i = 0; i < samples; i++) {
@@ -126,16 +103,10 @@ int readMoistureSensorAveraged(int pin, int samples = 10) {
   return (int)(sum / samples);
 }
 
-// ==========================================
-// 5. MAIN SETUP & LOOP
-// ==========================================
 void setup() {
   Serial.begin(115200);
-  delay(1000);
-
-  Serial.println("\n==========================================");
-  Serial.println("🌱 ESP32 Soil Moisture Sensor Starting...");
-  Serial.println("==========================================");
+  delay(500);
+  Serial.println("\n--- AgroPulse ESP32 Starting ---");
 
   pinMode(SENSOR_PIN, INPUT);
   analogSetPinAttenuation(SENSOR_PIN, ADC_11db);
@@ -172,14 +143,11 @@ void loop() {
     char jsonBuffer[256];
     serializeJson(doc, jsonBuffer);
 
-    Serial.print("[MQTT] Publishing to '");
-    Serial.print(MQTT_TOPIC);
-    Serial.print("': ");
+    Serial.print("[MQTT] Publish: ");
     Serial.println(jsonBuffer);
 
-    bool success = mqttClient.publish(MQTT_TOPIC, jsonBuffer);
-    if (!success) {
-      Serial.println("[MQTT] ERROR: Failed to publish message!");
+    if (!mqttClient.publish(MQTT_TOPIC, jsonBuffer)) {
+      Serial.println("[MQTT] Error: Publish failed!");
     }
   }
 }

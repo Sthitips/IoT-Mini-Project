@@ -1,263 +1,220 @@
-# Smart Soil Monitoring System
+# 🌱 AgroPulse — Smart IoT Soil Moisture Monitoring System
 
-A full-stack IoT project that monitors soil moisture with an ESP32, forwards readings through a HiveMQ Cloud MQTT broker, stores them in a FastAPI backend, and displays the live system status in a React dashboard.
+A modern, full-stack Internet of Things (IoT) solution that continuously monitors soil moisture levels using an **ESP32**, streams telemetry via a public cloud **MQTT broker** (`broker.emqx.io`), converts and aggregates readings with a **FastAPI** backend, and renders an interactive, mobile-responsive dashboard in **React 19 + Vite**.
 
-## Overview
+---
 
-This project was designed to help you:
+## 🏗️ Architecture
 
-- collect soil moisture readings from a physical sensor
-- send those readings wirelessly over MQTT using HiveMQ Cloud
-- validate and convert the raw values in Python
-- store measurement history locally
-- show live moisture, health, and recommendations in a browser
-
-## Architecture
-
-```text
-Soil sensor -> ESP32 -> MQTT broker -> FastAPI backend -> JSON storage + REST API -> React dashboard
+```mermaid
+graph LR
+    Sensor["Soil Moisture Sensor\n(Capacitive / Resistive)"] -->|Analog Voltage ADC1| ESP32["ESP32 Dev Module\n(C++ / Arduino)"]
+    ESP32 -->|MQTT Port 1883\nJSON Telemetry| Broker["Cloud MQTT Broker\n(broker.emqx.io)"]
+    Broker -->|paho-mqtt\nTopic Subscription| Backend["FastAPI Backend\n(Render.com / Local)"]
+    Backend -->|JSON Storage\nreadings.json| Storage[("Local Telemetry\nHistory")]
+    Backend -->|REST API\nHTTPS / CORS| Frontend["React 19 Dashboard\n(Vercel / Local)"]
+    Frontend -->|Live View| User["Mobile / Laptop Browser"]
 ```
 
-## Components
+---
 
-- `esp32/` — Arduino sketch and hardware setup for the ESP32 sensor node
-- `mosquitto/` — legacy local broker files kept for reference, not required for cloud deployment
-- `soil-monitor-backend/` — Python FastAPI service and local data storage
-- `soil-monitor-frontend/` — React + Vite dashboard for the UI
-- `run_all.sh` — starts the backend and frontend using the cloud broker settings
-- `stop_all.sh` — stops all services
+## ✨ Features
 
-## Features
+- **Real-Time Telemetry:** ESP32 samples and broadcasts moisture readings every 2 seconds.
+- **Accurate Calibration:** Backend maps raw 12-bit ADC values (0–4095) into calibrated volumetric soil moisture percentages (0–100%).
+- **Cloud MQTT Integration:** Operates across local networks and internet without local broker port forwarding (`broker.emqx.io:1883`).
+- **Smart Irrigation Recommendations:** Automated watering advisories based on current moisture thresholds (Critically Dry, Low, Optimal, Saturated).
+- **Interactive Modern UI:**
+  - Dynamic circular SVG moisture gauge.
+  - Multi-segment moisture zone spectrum indicator.
+  - Recharts historical trend graph and telemetry log view.
+  - Time synchronization across UTC and the user's local timezone.
+- **Responsive Design:** Optimized for smartphones, tablets, and desktop displays with smooth touch interactions.
+- **Zero-Cost Cloud Deployment:** Fully deployable on **Render** (FastAPI) and **Vercel** (React SPA).
 
-- real-time MQTT data ingestion
-- moisture conversion from raw analog values
-- device health and connectivity checks
-- historical moisture charting
-- watering recommendations based on moisture thresholds
-- mobile-friendly dashboard
-- local JSON-based persistence for simple deployment
+---
 
-## Tech stack
-
-- ESP32 + Arduino
-- HiveMQ Cloud MQTT broker
-- Python 3
-- FastAPI
-- Pydantic
-- React
-- Vite
-- Recharts
-- Tailwind CSS
-
-## Quick start
-
-1. Copy the backend example file and set your HiveMQ Cloud credentials:
-
-```bash
-cd /home/ansuman30/Music/IOT_SOIL/soil-monitor-backend
-cp .env.example .env
-```
-
-Set these values in `.env`:
-
-```env
-MQTT_BROKER=broker.hivemq.cloud
-MQTT_PORT=8883
-MQTT_USE_TLS=true
-MQTT_USERNAME=your_hivemq_username
-MQTT_PASSWORD=your_hivemq_password
-MQTT_TOPIC=soil-monitor/+/readings
-```
-
-2. Start the backend and frontend stack:
-
-```bash
-cd /home/ansuman30/Music/IOT_SOIL
-./run_all.sh
-```
-
-3. Open the frontend on your browser or phone using the displayed LAN URL.
-
-4. If using actual hardware, flash the ESP32 sketch from `esp32/soil_monitor_esp32/soil_monitor_esp32.ino` and update the hostname, port, and credentials there as well.
-
-## Project structure
+## 📁 Repository Structure
 
 ```text
 IOT_SOIL/
-├── README.md
-├── run_all.sh
-├── stop_all.sh
-├── simulate_esp32.py
+├── README.md                      # Project documentation
+├── render.yaml                    # Infrastructure-as-code for Render deployment
+├── run_all.sh                     # Automated local startup script
+├── stop_all.sh                    # Automated process cleanup script
+├── simulate_esp32.py              # Python telemetry simulator for testing
 ├── esp32/
-│   ├── README.md
+│   ├── README.md                  # Hardware and firmware documentation
 │   └── soil_monitor_esp32/
-│       └── soil_monitor_esp32.ino
+│       └── soil_monitor_esp32.ino # ESP32 Arduino firmware
 ├── mosquitto/
-│   ├── README.md
-│   └── mosquitto.conf
+│   ├── README.md                  # Optional local Mosquitto reference
+│   └── mosquitto.conf             # Local broker configuration file
 ├── soil-monitor-backend/
-│   ├── README.md
-│   ├── app/
+│   ├── README.md                  # Backend architecture and API documentation
+│   ├── requirements.txt           # Python dependencies
+│   ├── .env.example               # Template environment configuration
+│   ├── test_backend.py            # Unit test suite
 │   ├── data/
-│   ├── requirements.txt
-│   ├── .env.example
-│   ├── test_backend.py
-│   └── test_routes.py
-├── soil-monitor-frontend/
-│   ├── README.md
-│   ├── package.json
-│   ├── vite.config.js
-│   ├── src/
-│   └── public/
-└── .gitignore
+│   │   └── readings.json          # Persistent JSON telemetry store
+│   └── app/
+│       ├── main.py                # FastAPI entry point & CORS configuration
+│       ├── mqtt/subscriber.py     # Background paho-mqtt subscriber
+│       ├── routes/sensor.py       # REST API endpoints
+│       ├── schemas/sensor.py      # Pydantic data models
+│       └── services/              # Calibration, storage, and recommendations
+└── soil-monitor-frontend/
+    ├── README.md                  # Frontend development documentation
+    ├── package.json               # Node.js dependencies
+    ├── vercel.json                # Single-Page-App routing for Vercel
+    ├── vite.config.js             # Vite configuration with /api proxy
+    └── src/
+        ├── App.jsx                # Main application component
+        ├── App.css / index.css    # Tailwind CSS and theme design system
+        ├── api/                   # Axios client with cache-busting
+        ├── components/            # Dashboard cards and gauges
+        ├── hooks/useSensorData.js # 3-second auto-polling hook
+        └── pages/Dashboard.jsx    # Complete responsive dashboard view
 ```
 
-## GitHub push guidance
+---
 
-When pushing to GitHub, keep these in the repository:
+## 🔌 Hardware Setup
 
-- source code
-- config files
-- README files
-- scripts such as `run_all.sh` and `stop_all.sh`
-- `.env.example` files
-- sample or seed data if you want a project demo
+### Wiring Diagram
 
-Do not commit:
+| Soil Moisture Sensor | ESP32 Dev Module | Notes |
+|:---|:---|:---|
+| **VCC** | **3.3V** (or VIN) | 3.3V recommended to protect ADC |
+| **GND** | **GND** | Common ground |
+| **AOUT (Analog Out)** | **GPIO 34** | Must use ADC1 (ADC2 is disabled when Wi-Fi is active) |
 
-- `.venv/`
-- `node_modules/`
-- `dist/`
-- local `.env` files
-- logs and temporary files
-- generated runtime artifacts
+### Calibration Reference
 
-## Documentation by folder
+- **Air (Dry):** ADC Raw Value ≈ `3000` – `3500` (represents 0% moisture)
+- **Water (Wet):** ADC Raw Value ≈ `1200` – `1600` (represents 100% moisture)
+- Configurable via backend environment variables `DRY_RAW` and `WET_RAW`.
 
-- [esp32/README.md](esp32/README.md)
-- [mosquitto/README.md](mosquitto/README.md)
-- [soil-monitor-backend/README.md](soil-monitor-backend/README.md)
-- [soil-monitor-frontend/README.md](soil-monitor-frontend/README.md)
+---
 
-## License
+## 🚀 Quick Start (Local Development)
 
-This project is provided for learning and prototype deployment. Adjust licensing as needed before public release.
+### 1. Automated Start (Recommended)
 
+From the project root, launch both the backend and frontend simultaneously with automated environment setup and health checks:
 
 ```bash
-cd backend
+cd /home/ansuman30/Music/IOT_SOIL
+./run_local.sh
 ```
 
-Create a virtual environment:
-
+**Optional simulation:** To test without physical hardware, run:
 ```bash
-python -m venv .venv
+./run_local.sh --simulate
 ```
 
-Activate it on Windows:
+- **Frontend Dashboard:** [http://localhost:5173](http://localhost:5173) (or phone on same Wi-Fi: `http://192.168.0.x:5173`)
+- **Backend API Docs:** [http://localhost:8000/docs](http://localhost:8000/docs)
+- **Health Check:** [http://localhost:8000/health](http://localhost:8000/health)
 
+To stop all background services cleanly:
 ```bash
-.venv\Scripts\activate
+./stop_all.sh
 ```
 
-Install dependencies:
+---
 
+### 2. Manual Setup
+
+#### Backend Setup
 ```bash
+cd soil-monitor-backend
+python3 -m venv .venv
+source .venv/bin/activate
 pip install -r requirements.txt
+uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
 ```
 
-Start the FastAPI server:
-
+#### Frontend Setup
 ```bash
-uvicorn app.main:app --reload
-```
-
-Backend URL:
-
-```text
-http://127.0.0.1:8000
-```
-
-API documentation:
-
-```text
-http://127.0.0.1:8000/docs
-```
-
-### 3. Run the Frontend
-
-Open another terminal and navigate to the frontend directory:
-
-```bash
-cd frontend
-```
-
-Install dependencies:
-
-```bash
+cd soil-monitor-frontend
 npm install
+npm run dev -- --host 0.0.0.0 --port 5173
 ```
 
-Create a `.env` file:
+---
 
-```env
-VITE_API_URL=http://localhost:8000/api
-```
+## 📡 API Specification
 
-Start the React development server:
+| Method | Endpoint | Description |
+|:---|:---|:---|
+| `GET` | `/health` | Service health check (used by Render & Uptime monitors) |
+| `GET` | `/api/sensor/latest` | Retrieves most recent reading (`moisture`, `raw_value`, `timestamp`) |
+| `GET` | `/api/sensor/history` | Retrieves chronological moisture history for charting |
+| `GET` | `/api/sensor/status` | Reports whether ESP32 has communicated within 15 seconds |
+| `GET` | `/api/recommendations` | Smart watering dosage and priority advisory |
+| `POST` | `/api/sensor/readings` | Ingests a new reading directly via HTTP (testing endpoint) |
+
+Interactive Swagger documentation: `http://localhost:8000/docs`
+
+---
+
+## ☁️ Cloud Deployment (Render + Vercel)
+
+The project is structured for easy deployment to free cloud tiers:
+
+### 1. Backend on [Render](https://render.com)
+1. Create a **New Web Service** connected to your GitHub repository.
+2. Configure:
+   - **Root Directory:** `soil-monitor-backend`
+   - **Runtime:** `Python 3`
+   - **Build Command:** `pip install -r requirements.txt`
+   - **Start Command:** `uvicorn app.main:app --host 0.0.0.0 --port $PORT`
+3. Add Environment Variables:
+   - `MQTT_BROKER`: `broker.emqx.io`
+   - `MQTT_PORT`: `1883`
+   - `MQTT_USE_TLS`: `false`
+   - `MQTT_TOPIC`: `soil-monitor/+/readings`
+   - `CORS_ORIGINS`: `*`
+   - `DRY_RAW`: `3000`
+   - `WET_RAW`: `1200`
+4. Copy your backend URL (e.g., `https://agropulse-backend.onrender.com`).
+
+### 2. Frontend on [Vercel](https://vercel.com)
+1. Create a **New Project** connected to your GitHub repository.
+2. Configure:
+   - **Root Directory:** `soil-monitor-frontend`
+   - **Framework:** `Vite`
+3. Add Environment Variable:
+   - `VITE_API_URL`: `https://your-backend.onrender.com/api`
+4. Click **Deploy**.
+
+### 3. Keep Free Tier Active
+To prevent Render free instances from sleeping after 15 minutes of inactivity, set up a free 5-minute HTTP monitor at [UptimeRobot](https://uptimerobot.com) pointing to:
+`https://your-backend.onrender.com/health`
+
+---
+
+## 🧪 Testing Without Hardware
+
+You can simulate sensor data with the included simulator script:
 
 ```bash
-npm run dev
+python3 simulate_esp32.py --device-id esp32-001 --interval 2
 ```
 
-The frontend will generally be available at:
+Or publish via MQTT directly:
 
-```text
-http://localhost:5173
+```bash
+python3 -c '
+import paho.mqtt.publish as p, json
+p.single("soil-monitor/esp32-001/readings", json.dumps({"device_id":"esp32-001","raw_value":1800,"timestamp":"2026-11-07T12:00:00Z"}), hostname="broker.emqx.io")
+print("Published simulated reading")
+'
 ```
 
-### 4. Configure MQTT and ESP32
-
-Configure the Mosquitto broker and connect the ESP32 to it.
-
-Ensure that the ESP32 publishes messages using the agreed topic and JSON payload structure.
-
-Refer to the backend README for detailed MQTT integration requirements.
-
-## 🔌 API Endpoints
-
-The FastAPI backend exposes the following endpoints:
-
-| Endpoint | Method | Description |
-|---|---|---|
-| `/api/sensor/latest` | GET | Retrieves the latest sensor reading |
-| `/api/sensor/history` | GET | Retrieves today's moisture history |
-| `/api/sensor/status` | GET | Retrieves device connectivity status |
-| `/api/sensor/readings` | POST | Test endpoint for inserting sensor readings |
-
-Interactive API documentation is available at:
-
-`http://127.0.0.1:8000/docs`
-
-## 📡 Sensor Data Frequency
-
-The ESP32 is configured to publish sensor readings approximately once every second.
-
-The backend processes incoming readings and maintains the latest actual measurement.
-
-For historical visualization, readings can be aggregated into one-minute averages to reduce the number of chart points and storage overhead.
-
-The dashboard periodically fetches updated information from the backend.
-
-## ⚠️ Important Notes
-
-- The ESP32 sends raw sensor values; moisture conversion is performed by the backend.
-- The raw-to-moisture conversion depends on actual dry and wet soil calibration values.
-- The React frontend communicates with FastAPI rather than directly connecting to the MQTT broker.
-- The project uses local JSON storage and does not require an external database.
-- MQTT credentials and sensitive configuration must not be committed to GitHub.
-- Local JSON storage is intended for prototype-scale usage and requires appropriate write synchronization.
+---
 
 ## 📄 License
 
-This project is developed for academic and educational purposes.
+This project is licensed under the MIT License — open for academic, personal, and IoT prototype deployment.
