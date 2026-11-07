@@ -32,14 +32,16 @@ fi
 echo "Starting backend..."
 cd "$BACKEND_DIR"
 if [ -f .venv/bin/python3 ]; then
-  ./.venv/bin/python3 -m uvicorn app.main:app --host 0.0.0.0 --port 8000 > /tmp/soil_backend.log 2>&1 &
+  nohup ./.venv/bin/python3 -m uvicorn app.main:app --host 0.0.0.0 --port 8000 > /tmp/soil_backend.log 2>&1 &
 else
-  python3 -m uvicorn app.main:app --host 0.0.0.0 --port 8000 > /tmp/soil_backend.log 2>&1 &
+  nohup python3 -m uvicorn app.main:app --host 0.0.0.0 --port 8000 > /tmp/soil_backend.log 2>&1 &
 fi
+disown
 
 echo "Starting frontend..."
 cd "$FRONTEND_DIR"
-npm run dev -- --host 0.0.0.0 --port 5173 > /tmp/soil_frontend.log 2>&1 &
+nohup npm run dev -- --host 0.0.0.0 --port 5173 > /tmp/soil_frontend.log 2>&1 &
+disown
 
 for i in $(seq 1 30); do
   if curl -fsS http://127.0.0.1:8000/ >/dev/null 2>&1; then
@@ -66,12 +68,12 @@ echo "- Frontend root:"
 curl -sS -I http://localhost:5173/ | head -n 1
 
 echo ""
-echo "- MQTT broker: external HiveMQ Cloud (configured via environment variables)"
+echo "- MQTT broker: broker.emqx.io (public, no auth)"
 
 echo ""
 LAN_IP=$(hostname -I | awk '{print $1}')
 
 echo "Project is running."
-echo "Backend: http://${LAN_IP:-127.0.0.1}:8000"
+echo "Backend:  http://${LAN_IP:-127.0.0.1}:8000"
 echo "Frontend: http://${LAN_IP:-127.0.0.1}:5173"
-echo "Make sure your backend .env contains the HiveMQ Cloud host, username, password and TLS settings."
+echo "Open the frontend URL in your browser or phone (same Wi-Fi)."

@@ -16,10 +16,8 @@ const char* WIFI_SSID     = "mygigachigga";
 const char* WIFI_PASSWORD = "SreyAnsu109";
 
 // ── Public EMQX broker — no signup needed ──
-const char* MQTT_BROKER   = "broker.emqx.io";
-const int   MQTT_PORT     = 1883;
-const char* MQTT_USER     = "";   // no auth
-const char* MQTT_PASS     = "";   // no auth
+const char* MQTT_BROKER = "broker.emqx.io";
+const int   MQTT_PORT   = 1883;
 // ───────────────────────────────────────────
 
 // Device identity and MQTT topic
@@ -100,32 +98,21 @@ String getISO8601Timestamp() {
 
 void reconnectMQTT() {
   while (!mqttClient.connected()) {
-    Serial.print("[MQTT] Attempting connection to broker: ");
+    Serial.print("[MQTT] Connecting to ");
     Serial.print(MQTT_BROKER);
     Serial.print(":");
     Serial.println(MQTT_PORT);
 
-    String clientId = "ESP32Client-";
-    clientId += String(random(0xffff), HEX);
+    String clientId = "ESP32-" + String(random(0xffff), HEX);
 
-    bool connected = false;
-    if (MQTT_USER && strlen(MQTT_USER) > 0) {
-      connected = mqttClient.connect(clientId.c_str(), MQTT_USER, MQTT_PASS);
+    if (mqttClient.connect(clientId.c_str())) {
+      Serial.println("[MQTT] Connected to broker.emqx.io!");
     } else {
-      connected = mqttClient.connect(clientId.c_str());
-    }
-
-    if (connected) {
-      Serial.println("[MQTT] Connected successfully to HiveMQ Cloud!");
-    } else {
-      Serial.print("[MQTT] Connection failed, rc=");
+      Serial.print("[MQTT] Failed, rc=");
       Serial.print(mqttClient.state());
-      Serial.println(". Retrying in 3 seconds...");
+      Serial.println(" — retrying in 3s...");
       delay(3000);
-
-      if (WiFi.status() != WL_CONNECTED) {
-        setupWiFi();
-      }
+      if (WiFi.status() != WL_CONNECTED) setupWiFi();
     }
   }
 }
