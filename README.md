@@ -183,7 +183,7 @@ The project is structured for easy deployment to free cloud tiers:
 ### 2. Frontend on [Vercel](https://vercel.com)
 1. Create a **New Project** connected to your GitHub repository.
 2. Configure:
-   - **Root Directory:** `soil-monitor-frontend`
+   - **Root Directory:** `soi-monitor-frontend`
    - **Framework:** `Vite`
 3. Add Environment Variable:
    - `VITE_API_URL`: `https://your-backend.onrender.com/api`
